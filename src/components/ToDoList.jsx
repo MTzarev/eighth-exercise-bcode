@@ -36,10 +36,10 @@ function moveTaskDown (index){
 
     return(
         <div className="to-do-list">
-        <h1>To-Do-List</h1>
+        <h1>To Do List</h1>
         <div>
             <input type="text" 
-            placeholder="Enter a task ..."
+            placeholder="Enter new task ..."
             value = {newTask}
             onChange={handleInputChante}
             />
